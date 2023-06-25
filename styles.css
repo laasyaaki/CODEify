@@ -71,3 +71,22 @@ h1 {
     background-color: #3e8e41;
 }
 
+.face {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.face_container {
+    display: flex;
+    justify-content: center;
+}
+
+.face_and_info {
+    padding-left: 10;
+    padding-right: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
