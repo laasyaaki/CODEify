@@ -90,3 +90,35 @@ h1 {
     margin-left: 10;
     margin-right: 10;
 }
+
+#faq-ul {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.faq-details {
+    display:block;
+    background-color: rgb(228, 215, 240);
+    color: black;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    justify-self: center;
+    width: 75%;
+
+}
+
+.faq-q {
+    
+}
+
+#faq-div {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+details[open] > summary {
+    list-style-type: "▼";
+}
+
