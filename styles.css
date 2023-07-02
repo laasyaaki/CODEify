@@ -68,7 +68,7 @@ h1 {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #955bd8;
 }
 
 .face {
@@ -92,33 +92,68 @@ h1 {
 }
 
 #faq-ul {
-    justify-content: center;
-    justify-self: center;
-    justify-items: center;
+    padding: 10px;
 }
 
 .faq-details {
     display:block;
-    background-color: rgb(228, 215, 240);
     color: black;
     padding: 10px;
-    box-shadow: 1px 1px 2px #bbbbbb;
-    justify-self: center;
-    width: 75%;
-
-}
-
-.faq-q {
+    font-size: 20px;
     
 }
+
+/* .faq-q {
+    
+} */
 
 #faq-div {
     justify-content: center;
     justify-self: center;
     justify-items: center;
+    border-radius: 15px;
+    background-color: rgb(228, 215, 240);
+    width: 75%;
+    margin: auto;
 }
 
 details[open] > summary {
     list-style-type: "▼";
+
 }
 
+details[open] {
+    background-color: white;
+}
+
+
+h2 {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center; 
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #525155;
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5915b3;
+  }
