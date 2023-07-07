@@ -36,8 +36,49 @@
             </div>
         </nav>
 
+        
 
-        <div class="header_input">
+        <div class="">
+
+            <div>
+            <h3 >Contact us</h3>
+
+            <form  method="post" action="contact-form-process.php">
+                
+                <div >
+                    <label for="Name" >Your name</label>
+                    <div >
+                        <input type="text" id="Name" name="Name"  required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="Email" >Your email address</label>
+                    <div>
+                        <input type="email" id="Email" name="Email"  required>
+                    </div>
+                </div>
+
+                <div >
+                    <label for="Message" >Your message</label>
+                    <div >
+                        <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+
+                <div >
+                    <button type="submit" id="form-button" >Send Message</button>
+                </div>
+
+                
+
+            </form>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="header_input">
             <p>Name:</p>
             <input type="text" id="name" name="name" required>
 
@@ -51,7 +92,7 @@
             <input type="text" id="email" name="email" required>
 
             <button type="button" class="btn btn-outline-light">Register</button>
-        </div>
+        </div> -->
     </div>
     </body>
 </html>

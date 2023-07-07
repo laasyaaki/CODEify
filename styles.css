@@ -27,12 +27,12 @@
 .header_container .header_box .header_column .image_area{
     position:absolute;
     display:flex;
-    top:140px;
+    top:50px;
     left:520px;
     width:600px;
-    height:650px;
+    height:300%;
     padding:0px;
-    margin-left:700px;
+    margin-left:280px;
     margin-bottom:1000px;
     background-color:rgba(152, 31, 168, .5);
     border:rgb(152, 31, 168);
@@ -66,7 +66,7 @@
     position:relative;
     text-align:center;
     margin-top:5%;
-    margin-left:10%;
+    margin-left:10%; 
     margin-right:10%;
     vertical-align:center;
     font-size:165%;
@@ -119,6 +119,16 @@
     margin-left:10px;
 }
 
+.header_container .header_box .header_column .header_title a{
+    position:absolute;
+    top:305px;
+    left:180px;
+    padding:15px;
+    color:white; 
+    font-size:150%;
+    margin-left:10px;
+}
+
 .header_container .header_box .header_column .header_input{
     position:absolute;
     padding:20px;
@@ -155,14 +165,14 @@
 
 .header_container .header_box .scroll_to_courses{
     position:absolute;
-    left:850px;
-    top:800px;
+    left:50%;
+    top:90%;
     padding:0px;
     color:white; 
     font-size:100%;
-    margin-top:20px;
+    margin-top:1%;
     text-align:center;
-    margin-bottom:200px;
+ 
 }
 
 
@@ -341,4 +351,25 @@ body {
         
 	}
 }
+
+#register-btn {
+    
+    left: 100px;
+}
+
+.face_and_info {
+
+    display: inline-block;
+    justify-self: center;
+}
+
+.face {
+    border-radius: 100%;
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
 
