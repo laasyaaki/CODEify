@@ -247,9 +247,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     background:#111;
-    
+    animation-duration: 2s;
 }
 
 .wrapper span {
@@ -260,7 +259,8 @@ body {
 	z-index: -1;
 	background-color: #18191f;
 	box-shadow: 0 0 50px #a23dbb, 0 0 100px #a23dbb, 0 0 150px #a23dbb, 0 0 200px #a23dbb;
-	animation: animate 10s linear infinite;
+	animation: animate 10s linear 15s;
+    animation-fill-mode: backwards;
 }
 .wrapper span:nth-child(1) {
 	left: 60px;
@@ -329,13 +329,16 @@ body {
 	0% {
 		transform: translateY(0);
 		opacity: 1;
+        
 	}
 	80% {
 		opacity: .7;
+        
 	}
 	100% {
 		transform: translateY(-800px) rotate(360deg);
 		opacity: 0;
+        
 	}
 }
 
