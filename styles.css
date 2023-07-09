@@ -87,7 +87,7 @@
     position:relative;
     width:100%;
     height:960px;
-    background-image: url("Images\\landscape-purple-mountains-mountain-wallpaper.jpg");
+    background-image: url("Images/landscape-purple-mountains-mountain-wallpaper.jpg");
     box-sizing:border-box;
     overflow:hidden;
 }
