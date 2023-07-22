@@ -1,0 +1,47 @@
+.component-container {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-primary-300);
+}
+.component-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.component-text {
+  color: #ffffff;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+}
+.component-text1 {
+  color: var(--dl-color-primary-700);
+  font-size: 23px;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.component-text2 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 1200px) {
+  .component-container {
+    width: 60%;
+  }
+}
+@media(max-width: 479px) {
+  .component-container {
+    height: 500px;
+  }
+}
