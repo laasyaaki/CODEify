@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CODEify/static/css/main.ad395863.css",
-    "main.js": "/CODEify/static/js/main.e9b72f09.js",
+    "main.js": "/CODEify/static/js/main.d9768e70.js",
     "index.html": "/CODEify/index.html",
     "main.ad395863.css.map": "/CODEify/static/css/main.ad395863.css.map",
-    "main.e9b72f09.js.map": "/CODEify/static/js/main.e9b72f09.js.map"
+    "main.d9768e70.js.map": "/CODEify/static/js/main.d9768e70.js.map"
   },
   "entrypoints": [
     "static/css/main.ad395863.css",
-    "static/js/main.e9b72f09.js"
+    "static/js/main.d9768e70.js"
   ]
 }
