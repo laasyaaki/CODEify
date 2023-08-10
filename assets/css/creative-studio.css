@@ -4497,8 +4497,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .nav-tabs .nav-link.active,
@@ -4600,6 +4600,12 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+@media (max-width: 991.98px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -4654,7 +4660,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+ 
   border-radius: 0.2rem;
 }
 
@@ -4994,6 +5000,10 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-brand {
   color: #fff;
+
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
@@ -5021,7 +5031,7 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-toggler {
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -5057,6 +5067,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #eaf0fc;
   border-radius: 0.2rem;
+  color: #000 !important;
 }
 
 .card > hr {
@@ -11294,6 +11305,7 @@ p {
 .box .box-item .box-title {
   font-size: 18px;
   margin-bottom: 20px;
+  
 }
 
 .box .box-item:last-child {
@@ -11380,7 +11392,7 @@ p {
 }
 
 .sub-subtitle {
-  font-size: 25px;
+  font-size: calc(13px + (22 - 13) * ((100vw - 300px) / (1200 - 320)));
   
 }
 
@@ -11455,7 +11467,7 @@ p {
 .card.blog-post .card-body .details a {
   text-align: center;
   display: inline-block;
-  color: #495057;
+  color: #000;
   opacity: .6;
   text-decoration: none;
 }
@@ -11561,7 +11573,7 @@ pre .code {
   margin: auto;
   width: 95%;
   max-width: 1050px;
-  border: 1px solid rgba(234, 240, 252, 0.15);
+ 
   border-radius: 0.2rem;
   z-index: 9999;
   -webkit-transition: all, 0.33s;
@@ -11576,16 +11588,13 @@ pre .code {
   }
 }
 
-.custom-navbar .navbar-toggler {
-  border: 1px solid rgba(234, 240, 252, 0.2);
-  height: 55px;
-}
+
 
 .custom-navbar .navbar-toggler span {
   width: 35px;
-  height: 3px;
+  height: 2px;
   display: block;
-  background-color: rgba(234, 240, 252, 0.2);
+  background-color: #fff;
   border-radius: 10px;
 }
 
@@ -11595,7 +11604,7 @@ pre .code {
   display: block;
   height: 3px;
   color: #495057;
-  background-color: rgba(234, 240, 252, 0.2);
+  background-color: #fff;
 }
 
 .custom-navbar .navbar-toggler span:after {
@@ -11629,14 +11638,15 @@ pre .code {
   position: fixed;
   width: 100%;
   max-width: 100%;
-  background: #fff;
+  background: #000;
   -webkit-animation-name: affix;
           animation-name: affix;
   -webkit-animation-duration: .6s;
           animation-duration: .6s;
   top: 0;
   border-radius: 0;
-  border-bottom: 1px solid #eaf0fc;
+  opacity: 100%;
+ 
 }
 
 .custom-navbar.affix .navbar-toggler {
@@ -11825,6 +11835,7 @@ pre .code {
   margin-top: -20px;
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
+  text-align: center;
 }
 
 .header .overlay .title {
@@ -11893,7 +11904,7 @@ section .py-md {
 }
 
 section.has-bg-img {
-  background: rgba(33, 37, 41, 0.95);
+  background: transparent;
   position: relative;
   color: #fff;
 }
@@ -11905,7 +11916,7 @@ section.has-bg-img:after {
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../imgs/section.jpg);
+  background-color: #000;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -11918,7 +11929,7 @@ section.has-bg-img.bg-img-1:after {
 }
 
 section.has-bg-img.bg-img-2:after {
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/section.jpg);
 }
 
 section .section-subtitle {
