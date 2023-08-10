@@ -5065,7 +5065,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid #eaf0fc;
+  border: 2px solid #c2baca;
   border-radius: 0.2rem;
   color: #000 !important;
 }
@@ -5151,6 +5151,27 @@ input[type="button"].btn-block {
   margin-left: -0.625rem;
 }
 
+details > summary {
+  list-style-type: "Read more about " ;
+  font-size: 18px;
+  
+}
+
+details[open] > summary {
+  list-style-type: 'Read less about ';
+}
+
+.read-more-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 5px !important;
+  padding-left: 1px !important;
+  color:#757474
+  
+}
+
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -5169,6 +5190,9 @@ input[type="button"].btn-block {
   width: 100%;
   border-top-left-radius: calc(0.2rem - 1px);
   border-top-right-radius: calc(0.2rem - 1px);
+  height: 315px; 
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .card-img-bottom {
@@ -11804,6 +11828,7 @@ pre .code {
   background-size: cover;
 }
 
+
 .header .overlay {
   position: absolute;
   left: 0;
@@ -11885,9 +11910,14 @@ html {
   height: 100%;
 }
 
-section {
-  padding: 100px 0;
+section:not(#tutors)  {
+  padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
 }
+
+
 
 section:nth-child(odd) {
   background-color: #fbfcfc;
