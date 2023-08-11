@@ -11417,6 +11417,8 @@ p {
 
 .sub-subtitle {
   font-size: calc(13px + (22 - 13) * ((100vw - 300px) / (1200 - 320)));
+  text-align: center;
+  width: 50%;
   
 }
 
@@ -11916,6 +11918,10 @@ section:not(#tutors)  {
     padding-bottom: 100px;
     padding-left: 0px;
 }
+
+
+
+
 
 
 
