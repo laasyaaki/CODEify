@@ -12016,10 +12016,27 @@ section .section-subtitle {
   opacity: .6;
 }
 
+ .faq-q {
+  font-size: calc(17px + (19 - 17) * ((100vw - 320px) / (1200 - 320)));
+  font-weight: 300;
+  margin-bottom: 5px;
+  color: black
+}
+
 @media (min-width: 992px) {
   section .section-subtitle {
     font-size: 23px;
   }
+}
+
+.hashtag-link {
+  visibility: hidden;
+  
+}
+
+.hashtag-link:hover {
+  visibility: visible;
+  
 }
 
 section .section-title {
