@@ -12029,6 +12029,11 @@ section .section-subtitle {
   }
 }
 
+.ghost-container {
+  visibility: hidden;
+  font-size: 0;
+}
+
 .hashtag-link {
   visibility: hidden;
   
