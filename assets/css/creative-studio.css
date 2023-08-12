@@ -4687,6 +4687,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 576px) {
+  
   .navbar-expand-sm {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4738,6 +4739,15 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+  
+}
+
+@media (max-width: 991px) {
+  
+  .navbar {
+    background-color: black;
+  }
+  
 }
 
 @media (min-width: 768px) {
