@@ -5151,15 +5151,17 @@ input[type="button"].btn-block {
   margin-left: -0.625rem;
 }
 
-details > summary {
+details:not(.faq-details) > summary {
   list-style-type: "Read more about " ;
   font-size: 18px;
   
 }
 
-details[open] > summary {
+details[open]:not(.faq-details)  > summary {
   list-style-type: 'Read less about ';
 }
+
+
 
 .read-more-btn {
   background-color: transparent;
@@ -11605,6 +11607,7 @@ pre .code {
   -webkit-transition: all, 0.33s;
   transition: all, 0.33s;
   padding: 0 10px;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11672,17 +11675,19 @@ pre .code {
   top: 0;
   border-radius: 0;
   opacity: 100%;
+
+  
  
 }
 
 .custom-navbar.affix .navbar-toggler {
-  border-color: rgba(73, 80, 87, 0.2) !important;
+  border-color: transparent !important;
 }
 
 .custom-navbar.affix .navbar-toggler span,
 .custom-navbar.affix .navbar-toggler span:before,
 .custom-navbar.affix .navbar-toggler span:after {
-  background: rgba(73, 80, 87, 0.2) !important;
+  background: white !important;
 }
 
 .custom-navbar.affix .nav-link {
@@ -11837,6 +11842,42 @@ pre .code {
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-header {
+  height: 20%;
+  min-height: 30px;
+  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.nav-header .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 20%;
+  min-height: 30px;
   background: rgba(0, 0, 0, 0.45);
   color: #fff;
   display: -webkit-box;
