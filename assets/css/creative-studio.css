@@ -11288,7 +11288,7 @@ p {
 
 .box {
   background: #fff;
-  border-radius: 0.15rem;
+  border-radius: 0.70rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11301,7 +11301,7 @@ p {
   width: 95%;
   max-width: 1050px;
   margin: auto;
-  box-shadow: 2px 0 10px rgba(52, 58, 64, 0.2);
+  box-shadow: 2px 0 10px rgba(52, 58, 64, 0.4);
   margin-top: -140px;
   z-index: 99;
   position: relative;
