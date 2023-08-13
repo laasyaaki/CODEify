@@ -604,6 +604,18 @@ pre code {
   margin-left: -15px;
 }
 
+.blog-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -2133,6 +2145,16 @@ pre code {
   }
   .table-responsive-lg > .table-bordered {
     border: 0;
+  }
+
+  .blog-desc {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-img {
+    display: none;
   }
 }
 
@@ -11430,6 +11452,13 @@ p {
 .sub-subtitle {
   font-size: calc(13px + (22 - 13) * ((100vw - 300px) / (1200 - 320)));
   text-align: center;
+  width: 50%;
+  
+}
+
+.blog-title {
+  font-size: calc(13px + (21 - 13) * ((100vw - 300px) / (1200 - 320)));
+  text-align: left;
   width: 50%;
   
 }
