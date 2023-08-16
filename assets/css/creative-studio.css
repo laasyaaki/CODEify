@@ -4621,12 +4621,16 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
+/* 
 @media (max-width: 991.98px) {
   .mobile {
     display: none;
+    justify-content: left;
+    text-align: left;
+    align-self: flex-start;
+    display: flex;
   }
-}
+} */
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -11904,7 +11908,7 @@ pre .code {
 
 .nav-header {
   height: 20%;
-  min-height: 30px;
+  min-height: 120px;
   background: url(../imgs/header.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -11916,7 +11920,7 @@ pre .code {
   top: 0;
   width: 100%;
   height: 20%;
-  min-height: 30px;
+  min-height: 120px;
   background: rgba(0, 0, 0, 0.45);
   color: #fff;
   display: -webkit-box;
