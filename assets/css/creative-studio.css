@@ -904,6 +904,11 @@ pre code {
   margin-left: 91.66667%;
 }
 
+.student-shoutout {
+  text-align: center;
+  width: 50%;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -webkit-flex-basis: 0;
