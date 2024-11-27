@@ -908,9 +908,11 @@ pre code {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 10px; 
+  background-color: black;
+  color: white;
 }
 .student-shoutout {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   /*margin-left: 25%;
   margin-right: 25%;
@@ -11351,7 +11353,7 @@ p {
   max-width: 1050px;
   margin: auto;
   box-shadow: 2px 0 10px rgba(52, 58, 64, 0.4);
-  margin-top: -140px;
+  margin-top: 20px;
   z-index: 99;
   position: relative;
   max-height: 300px;
