@@ -911,10 +911,18 @@ pre code {
 }
 .student-shoutout {
   padding: 20px;
-  margin-left: 25%;
-  margin-right: 25%;
   text-align: center;
   width: 50%;
+}
+
+#eight-weeks {
+  margin-left: 50%;
+  margin-right: 25%;
+}
+
+#ten-weeks {
+  /*margin-left: -12.5%;*/
+  margin-right: 25%;
 }
 
 @media (min-width: 576px) {
