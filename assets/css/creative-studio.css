@@ -904,7 +904,15 @@ pre code {
   margin-left: 91.66667%;
 }
 
+.student-shoutout-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+}
 .student-shoutout {
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   width: 50%;
 }
